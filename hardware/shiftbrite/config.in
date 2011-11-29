@@ -1,0 +1,7 @@
+dep_bool_menu "ShiftBrite" SHIFTBRITE_SUPPORT $CONFIG_EXPERIMENTAL
+    int "Shiftbrite Count" CONF_SHIFTBRITE_LEDCOUNT 16
+    int "Moodlight function passes" CONF_SHIFTBRITE_PASS_COUNT 1
+
+    comment  "Debugging Flags"
+    dep_bool 'Shiftbrite' DEBUG_SHIFTBRITE $DEBUG $SHIFTBRITE_SUPPORT
+endmenu
