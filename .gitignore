@@ -67,3 +67,4 @@ avr-objcopy
 avr-objdump
 avr-size
 avr-cpp
+/core/vfs/vfs-concat.exe
